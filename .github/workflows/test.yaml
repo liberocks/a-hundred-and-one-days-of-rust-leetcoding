@@ -1,23 +1,23 @@
 name: Rust CI
 
 on:
-    push:
-        branches:
-            - main
-    pull_request:
-        branches:
-            - main
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-        - name: Set up Rust
-            uses: actions/setup-rust@v1
+    steps:
+      - name: Set up Rust
+        uses: actions/setup-rust@v1
 
-        - name: Check out code
-            uses: actions/checkout@v2
+      - name: Check out code
+        uses: actions/checkout@v2
 
-        - name: Build and test
-            run: cargo test
+      - name: Build and test
+        run: cargo test
