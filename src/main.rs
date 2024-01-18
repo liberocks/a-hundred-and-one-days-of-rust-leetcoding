@@ -3,5 +3,5 @@ pub mod day_001_power_of_three;
 pub mod day_002_distribute_candies;
 
 fn main() {
-    println!("A hundred days of Rust Leetcoding");
+    println!("A hundred and one days of Rust Leetcoding");
 }
