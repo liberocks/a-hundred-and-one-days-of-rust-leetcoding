@@ -1,4 +1,4 @@
-# A Hundred Days of Rust Leetcoding
+# A Hundred and One Days of Rust Leetcoding
 
 This project contains solutions to Leetcode problems implemented in Rust. Each day, a new problem is solved and added to the corresponding module.
 
