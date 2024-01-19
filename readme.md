@@ -10,9 +10,14 @@ This project contains solutions to Leetcode problems implemented in Rust. Each d
 
 ## Running the Project
 
-Before running the project, you need to have Rust installed. You can install Rust by following the instructions [here](https://www.rust-lang.org/tools/install). Once Rust is installed, you can run the project by executing the following command:
+Before running the project, you need to have Rust installed. You can install Rust by following the instructions [here](https://www.rust-lang.org/tools/install). Once Rust is installed, you can run the project by executing the following command to run all problems:
 
 ```bash
 cargo test
 ```
 
+If you want to run specific problems, you can execute the following command : `cargo test day_XXX`. Change XXX with the day number you want to run. For example, if you want to run the first day, you can execute the following command:
+
+```bash
+cargo test day_000
+```

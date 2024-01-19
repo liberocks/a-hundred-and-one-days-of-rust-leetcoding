@@ -64,7 +64,7 @@ fn recursive_sum(
 }
 
 #[cfg(test)]
-mod test {
+mod day_005 {
 
     use super::*;
 

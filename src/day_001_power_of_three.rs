@@ -42,7 +42,7 @@ pub fn is_power_of_three(n: i32) -> bool {
 }
 
 #[cfg(test)]
-mod tests {
+mod day_001 {
     use super::*;
 
     #[test]

@@ -47,7 +47,7 @@ pub fn gray_code(n: i32) -> Vec<i32> {
 }
 
 #[cfg(test)]
-mod test {
+mod day_003 {
     use super::*;
 
     #[test]

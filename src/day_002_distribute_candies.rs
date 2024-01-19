@@ -48,7 +48,7 @@ pub fn distribute_candies(candy_type: Vec<i32>) -> i32 {
 }
 
 #[cfg(test)]
-mod tests {
+mod day_002 {
     use super::*;
 
     #[test]

@@ -49,7 +49,7 @@ pub fn is_valid(s: String) -> bool {
 }
 
 #[cfg(test)]
-mod test {
+mod day_004 {
     use super::*;
 
     #[test]

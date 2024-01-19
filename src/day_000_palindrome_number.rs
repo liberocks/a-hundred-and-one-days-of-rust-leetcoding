@@ -42,7 +42,7 @@ pub fn is_palindrome(x: i32) -> bool {
 }
 
 #[cfg(test)]
-mod tests {
+mod day_000 {
     use super::*;
 
     #[test]
