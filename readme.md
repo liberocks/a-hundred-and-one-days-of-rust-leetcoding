@@ -2,6 +2,8 @@
 
 This project contains solutions to Leetcode problems implemented in Rust. Each day, a new problem is solved and added to the corresponding module.
 
+![Unit test](https://github.com/liberocks/a-hundred-and-one-days-of-rust-leetcoding/actions/workflows/test.yml/badge.svg)
+
 ## Modules
 
 - `day_000_palindrome_number`: Solution for the Palindrome Number problem.
