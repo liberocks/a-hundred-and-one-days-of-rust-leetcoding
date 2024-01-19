@@ -30,7 +30,7 @@
 pub fn is_valid(s: String) -> bool {
     let mut smut: String = s;
 
-    while smut.len() > 0 {
+    while !smut.is_empty() {
         if let Some(index) = smut.find("()") {
             smut.remove(index + 1);
             smut.remove(index);
@@ -45,7 +45,7 @@ pub fn is_valid(s: String) -> bool {
         }
     }
 
-    smut.len() == 0
+    smut.is_empty()
 }
 
 #[cfg(test)]

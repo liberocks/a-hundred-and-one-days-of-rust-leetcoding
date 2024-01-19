@@ -13,7 +13,7 @@ Before running the project, you need to have Rust installed. You can install Rus
 cargo test
 ```
 
-If you want to run specific problems, you can execute the following command : `cargo test day_XXX`. Change XXX with the day number you want to run. For example, if you want to run the day zero, you can execute the following command:
+If you want to run specific problems, you can execute the following command : `cargo test day_XXX`. Change `XXX` with the day number you want to run. For example, if you want to run the day zero, you can execute the following command:
 
 ```bash
 cargo test day_000
@@ -28,3 +28,11 @@ cargo test day_000
 - `day_004_valid_parentheses`: Solution for the Valid Parentheses problem.
 - `day_005_combination_sum`: Solution for the Combination Sum problem.
 
+## Coverage
+Currently the coverage test is not included in Github Actions. It run locally by executing the following command:
+
+```bash
+export $(cat .env | xargs) && cargo tarpaulin --engine llvm --follow-exec --post-test-delay 10 --coveralls $COVERALLS_TOKEN
+```
+
+See the `.env`` sample in `env.sample`
