@@ -4,8 +4,6 @@ This project contains solutions to Leetcode problems implemented in Rust. Each d
 
 ![Unit test](https://github.com/liberocks/a-hundred-and-one-days-of-rust-leetcoding/actions/workflows/test.yaml/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/liberocks/a-hundred-and-one-days-of-rust-leetcoding/badge.svg?branch=master)](https://coveralls.io/github/liberocks/a-hundred-and-one-days-of-rust-leetcoding?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/liberocks/a-hundred-and-one-days-of-rust-leetcoding/badge.svg?branch=master)](https://coveralls.io/github/liberocks/a-hundred-and-one-days-of-rust-leetcoding?branch=master)
-
 
 ## Running the Project
 
