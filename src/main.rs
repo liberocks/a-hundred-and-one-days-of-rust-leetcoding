@@ -5,10 +5,8 @@ pub mod day_003_gray_code;
 pub mod day_004_valid_parentheses;
 pub mod day_005_combination_sum;
 
-fn main() -> bool {
+fn main() {
     println!("A hundred and one days of Rust Leetcoding");
-
-    true
 }
 
 #[cfg(test)]
@@ -17,6 +15,6 @@ mod tests {
 
     #[test]
     fn it_just_works() {
-        assert_eq!(main(), true);
+        main();
     }
 }
