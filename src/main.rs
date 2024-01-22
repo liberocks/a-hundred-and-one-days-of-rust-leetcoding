@@ -4,6 +4,7 @@ pub mod day_002_distribute_candies;
 pub mod day_003_gray_code;
 pub mod day_004_valid_parentheses;
 pub mod day_005_combination_sum;
+pub mod day_006_longest_substring;
 
 fn main() {
     println!("A hundred and one days of Rust Leetcoding");
